@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func Sqrt(x float64) float64 {
 	// intial variables
 
@@ -15,4 +17,8 @@ func Sqrt(x float64) float64 {
 	}
 
 	return result
+}
+
+func main() {
+	fmt.Println("Sqrt(500) ~=", Sqrt(500))
 }
